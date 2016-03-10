@@ -5,7 +5,7 @@
             <!-- form fields -->
             <!-- title-->
             <label class="control-label" for="title">
-                Page Title
+                <localize key="label_pageTitle">Page Title</localize>
             </label>
             <div class="controls controls-row">
 
@@ -16,15 +16,18 @@
 
                 <div class="help-block">
                     <p>
-                    The <strong>Title</strong> should be an accurate and concise description of a page's content, and is critical to both a user experience
-                    and search engine optimisation.
+                        <localize key="help_pageTitle">
+                            The <strong>Title</strong> should be an accurate and concise description of a page's
+                            content, and is critical to both a user experience and search engine optimisation.
+                        </localize>
                     </p>
                     <p>
-                    More Information: <a href="http://moz.com/learn/seo/title-tag" target="_blank">Title Tag (Moz.com)</a>
+                        <localize key="help_moreInfo">More Information</localize>: <a href="http://moz.com/learn/seo/title-tag" target="_blank">Title Tag (Moz.com)</a>
                     </p>
+                </localize>
                 </div>
 
-                <span class="help-inline" val-msg-for="title" val-toggle-msg="maxlen">Page title is too long</span>
+                <span class="help-inline" val-msg-for="title" val-toggle-msg="maxlen"><localize key="help_pageTitleTooLong">Page title is too long</localize></span>
             </div>
             <!-- page description -->
             <label class="control-label" for="description">
