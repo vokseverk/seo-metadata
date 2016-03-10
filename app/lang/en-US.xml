@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="en_us" intName="English (US)" localName="English (US)" lcid="" culture="en-US">
+	<creator>
+		<name>The Umbraco community</name>
+		<link>https://our.umbraco.org/documentation/Extending-Umbraco/Language-Files</link>
+	</creator>
+	<area alias="label">
+		<key alias="pageTitle">Page Title</key>
+	</area>
+	<area alias="help">
+		<key alias="pageTitle">
+			The <strong>Title</strong> should be an accurate and concise description of a page's
+			content, and is critical to both a user experience and search engine optimisation.
+		</key>
+		<key alias="moreInfo">More information</key>
+		<key alias="pageTitleTooLong">Page title is too long</key>
+	</area>
+</language>

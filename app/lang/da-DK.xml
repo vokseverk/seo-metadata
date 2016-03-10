@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="da" intName="Danish" localName="dansk" lcid="6" culture="da-DK">
+	<creator>
+		<name>The Umbraco community</name>
+		<link>https://our.umbraco.org/documentation/Extending-Umbraco/Language-Files</link>
+	</creator>
+	<area alias="label">
+		<key alias="pageTitle">Side titel</key>
+	</area>
+	<area alias="help">
+		<key alias="pageTitle">
+			<strong>Titlen</strong> bør være en kort og præcis beskrivelse af en sides indhold
+			og er meget vigtig både for brugeroplevelsen og for søgemaskineoptimisering.
+		</key>
+		<key alias="moreInfo">Mere information</key>
+		<key alias="pageTitleTooLong">Sidens titel er for lang</key>
+	</area>
+</language>
